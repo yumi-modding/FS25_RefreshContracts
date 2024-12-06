@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="93">
+    <author>yumi</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Refresh Contracts</en>
+        <fr>Actualiser Les Contrats</fr>
+        <de>Verträge Aktualisieren</de>
+        <ru>Обновить контракты</ru>
+        <pl>Odśwież Kontrakty</pl>
+        <it>Aggiorna I Contratti</it>
+    </title> 
+    <description>
+        <en><![CDATA[
+This mod enable to refresh the list of contracts proposed if you're not satisfied with current list by clicking on a button in the contracts panel.
+This prevents the need to reload a savegame several times to do so.
+]]></en>
+        <fr><![CDATA[
+Ce mod permet de rafraîchir la liste des contrats proposés si vous n'êtes pas satisfait de la liste actuelle en cliquant sur un bouton dans le panneau des contrats.
+Cela évite d'avoir à recharger une sauvegarde plusieurs fois pour ce faire.
+]]></fr>
+        <de><![CDATA[
+Mit diesem Mod können Sie die Liste der vorgeschlagenen Verträge aktualisieren, wenn Sie mit der aktuellen Liste nicht zufrieden sind, indem Sie auf eine Schaltfläche im Vertragsfenster klicken.
+Dadurch wird verhindert, dass ein Spielstand mehrmals neu geladen werden muss, um dies zu tun.
+]]></de>
+        <ru><![CDATA[
+Этот мод позволяет обновить список предлагаемых контрактов, если вас не устраивает текущий список, нажав кнопку на панели контрактов.
+Это избавляет от необходимости перезагружать сохраненную игру несколько раз.
+]]></ru>
+        <pl><![CDATA[
+Ten mod umożliwia odświeżenie kontraktów, jeśli nie jesteś zadowolony z aktualnej listy, klikając przycisk w oknie kontraktów.
+Zapobiega to konieczności kilkukrotnego wczytywania zapisów gry.
+]]></pl>
+        <it><![CDATA[
+Questa mod consente di aggiornare l'elenco dei contratti proposti se non sei soddisfatto dell'elenco corrente facendo clic su un pulsante nel pannello dei contratti.
+Ciò evita la necessità di ricaricare un salvataggio più volte per farlo.
+]]></it>
+    </description>
+    <iconFilename>icon_RefreshContracts.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="RefreshContracts.lua" />
+        <sourceFile filename="RefreshContractsEvent.lua" />
+    </extraSourceFiles>
+
+    <l10n>
+        <text name="RefreshContracts_REFRESH">
+            <en>Refresh Contracts</en>
+            <fr>Actualiser les contrats</fr>
+            <de>Verträge aktualisieren</de>
+            <ru>Обновить контракты</ru>
+            <pl>Odśwież kontrakty</pl>
+            <it>Aggiorna i contratti</it>
+        </text>
+    </l10n>
+
+</modDesc>
