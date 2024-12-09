@@ -1,6 +1,6 @@
 RefreshContracts = {}
 
-RefreshContracts.debug = true --false --
+RefreshContracts.debug = false --true --
 
 function RefreshContracts.setButtonsForState(self)
     if RefreshContracts.debug then print("RefreshContracts:onFrameOpen") end
