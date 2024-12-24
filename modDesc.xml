@@ -9,6 +9,7 @@
         <ru>Обновить контракты</ru>
         <pl>Odśwież Kontrakty</pl>
         <it>Aggiorna I Contratti</it>
+        <uk>Оновити контракти</uk>
     </title> 
     <description>
         <en><![CDATA[
@@ -35,6 +36,10 @@ Zapobiega to konieczności kilkukrotnego wczytywania zapisów gry.
 Questa mod consente di aggiornare l'elenco dei contratti proposti se non sei soddisfatto dell'elenco corrente facendo clic su un pulsante nel pannello dei contratti.
 Ciò evita la necessità di ricaricare un salvataggio più volte per farlo.
 ]]></it>
+        <uk>![CDATA[
+Цей мод дозволяє оновити список контрактів, що пропонується, якщо вас не влаштовує поточний список, просто натиснувши кнопку на панелі контрактів.
+Таким чином, вам немає потреби перезавантажувати гру для отримання бажаних замовлень.
+]]></uk>
     </description>
     <iconFilename>icon_RefreshContracts.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -51,6 +56,7 @@ Ciò evita la necessità di ricaricare un salvataggio più volte per farlo.
             <ru>Обновить контракты</ru>
             <pl>Odśwież kontrakty</pl>
             <it>Aggiorna i contratti</it>
+            <uk>Оновити контракти</uk>
         </text>
     </l10n>
 
